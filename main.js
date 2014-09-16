@@ -1,7 +1,10 @@
-// // function var tripleFive = console.log("Five!");
+var tripleFive = function() {
+	for (var i=0; i<3; i++) {
+		console.log("five!")
+	}
+}
 
-// // for (var i=0; i<3; i++) {
-// // }
+tripleFive();
 
 // var lastLetter = function(input) {
 // 	return input[input.length -1];
@@ -17,12 +20,12 @@
 // square(3);
 // square(5);
 
-// var negate = function (j) {
-// 	return j = -j;
-// }
+var negate = function (j) {
+	return -j;
+}
 
-// negate(5);
-// negate(-8);
+negate(5);
+negate(-8);
 
 // // var toArray = function('a', 'b', 'c') {
 // // 	return ['a', 'b', 'c'];
